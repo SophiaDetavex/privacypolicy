@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+  Used FOSS licensed code from https://www.quackit.com/html/html_editors/scratchpad/?example=/html/templates/navbars/animated_svg_border_navbar
+  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        :root {
+            --color-background: #0a0a0a;
+            --color-text: #e0e0e0;
+            --color-link-hover: #ffffff;
+            --color-primary: #00aaff;
+            --font-family-sans-serif: "Inter", -apple-system, sans-serif;
+            --navbar-height: 80px;
+            --border-radius: 8px;
+            --transition-speed: 0.6s;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+        
+        *, *::before, *::after { box-sizing: border-box; }
+        body { margin: 0; font-family: var(--font-family-sans-serif); background-color: var(--color-background); }
+        .content { min-height: 150vh; padding: 1.5rem; text-align: center; color: #fff; padding-top: calc(var(--navbar-height) + 2rem); }
+        ul { list-style: none; margin: 0; padding: 0; }
+        a { text-decoration: none; color: var(--color-text); }
+
+        .navbar {
+            position: sticky; top: 0; z-index: 1000;
+            height: var(--navbar-height); display: flex; align-items: center;
+        }
+        .navbar__container { display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+        .navbar__brand { font-size: 1.5rem; font-weight: 600; }
+        .navbar__nav { display: none; }
+        
+        /* Mobile Hamburger Menu */
+        .navbar__mobile-toggle { display: block; background: transparent; border: none; cursor: pointer; color: var(--color-text); }
+        .mobile-menu-pane {
+            position: fixed; top: 0; left: 0; width: 80%; max-width: 300px; height: 100%;
+            background-color: #141414; padding: 1.5rem; transform: translateX(-100%);
+            transition: transform 0.3s ease; z-index: 1001;
+        }
+        .mobile-menu-pane.is-open { transform: translateX(0); }
+        .mobile-menu-pane ul { margin-top: 4rem; }
+        .mobile-menu-pane .nav-link { display: block; font-size: 1.2rem; padding: 1rem 0; }
+
+        .animated-border-svg {
+            display: none;
+        }
+
+        /*
+        ========================================
+        Desktop & SVG Border Styles
+        ========================================
+        */
+        @media (min-width: 992px) {
+            .navbar__mobile-toggle, .mobile-menu-pane { display: none; }
+            .navbar__nav { display: block; }
+            .nav-list { display: flex; gap: 1rem; }
+
+            .nav-link {
+                position: relative;
+                padding: 1rem 1.5rem;
+                font-weight: 500;
+                transition: color var(--transition-speed) ease;
+            }
+            .nav-link:hover, .nav-link:focus-visible { color: var(--color-link-hover); }
+            :focus-visible { outline: 2px solid var(--color-primary); border-radius: var(--border-radius); }
+            .nav-link:focus-visible { outline: none; }
+            
+            /* The SVG container */
+            .animated-border-svg {
+                display: block;
+                position: absolute; inset: 0;
+                width: 100%; height: 100%;
+                pointer-events: none; /* Allows clicks to go through to the link */
+                z-index: -1;
+            }
+            
+            /* The rectangle path to be animated */
+            .animated-border-svg rect {
+                fill: none;
+                stroke: var(--color-primary);
+                stroke-width: 2px;
+                stroke-linecap: round;
+                
+                /*
+                 This is the core animation technique.
+                 - stroke-dasharray is set to a large number that's guaranteed
+                   to be longer than the perimeter of the rectangle. This creates
+                   a single long dash followed by an equally long gap.
+                 - stroke-dashoffset pushes this dash along the path. By setting
+                   it to the same value, we push the visible dash completely out of view.
+                */
+                stroke-dasharray: 1000;
+                stroke-dashoffset: 1000;
+                transition: stroke-dashoffset var(--transition-speed) ease-in-out;
+            }
+            
+            /*
+             On hover/focus, we transition the offset back to 0.
+             This animates the dash back into view, making it "draw" itself.
+            */
+            .nav-link:hover .animated-border-svg rect,
+            .nav-link:focus-visible .animated-border-svg rect {
+                stroke-dashoffset: 0;
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                .animated-border-svg rect { transition: none; }
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar__container">
+            <a href="#" class="navbar__brand">TrustedFriend Calculator Projects</a>
+            <nav class="navbar__nav" id="main-nav">
+                <ul class="nav-list">
+                    <li><a href="https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000002/0/0/index.html" class="nav-link">
+                        Great Calculator
+                        <svg class="animated-border-svg" viewBox="0 0 100 40" preserveAspectRatio="none"><rect width="100%" height="100%" rx="8" /></svg>
+                    </a></li>
+                    <li><a href="https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000001/index.html" class="nav-link">
+                        Complete Calculator
+                        <svg class="animated-border-svg" viewBox="0 0 100 40" preserveAspectRatio="none"><rect width="100%" height="100%" rx="8" /></svg>
+                    </a></li>
+                    <li><a href="https://play.google.com/store/apps/developer?id=TrustedFriend" class="nav-link">
+                        Play Store Page
+                        <svg class="animated-border-svg" viewBox="0 0 100 40" preserveAspectRatio="none"><rect width="100%" height="100%" rx="8" /></svg>
+                    </a></li>
+                    <li><a href="#" class="nav-link">
+                        App Store Page (Check back later!)
+                        <svg class="animated-border-svg" viewBox="0 0 100 40" preserveAspectRatio="none"><rect width="100%" height="100%" rx="8" /></svg>
+                    </a></li>
+                </ul>
+            </nav>
+            <button class="navbar__mobile-toggle" id="mobile-toggle" aria-label="Open Menu">
+                <svg width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu-pane" id="mobile-menu-pane"></div>
+    <main class="content"><h1>Website Under Construction<br>Check back later!<br></h1></main>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const mobileMenuPane = document.getElementById('mobile-menu-pane');
+        const mainNav = document.getElementById('main-nav');
+        if(mainNav) {
+            mobileMenuPane.innerHTML = mainNav.innerHTML;
+        }
+        if(mobileToggle) {
+            mobileToggle.addEventListener('click', (e) => {
+                e.stopPropagation();
+                mobileMenuPane.classList.toggle('is-open');
+            });
+        }
+    });
+    </script>
+</body>
+</html>
