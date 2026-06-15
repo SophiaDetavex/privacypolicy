@@ -1,0 +1,8 @@
+{
+  "name": "Project Game Room",
+  "short_name": "Game Room",
+  "start_url": "https://trustedfriendcorp.org/tools/calculator/A0000009/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb"
+}
