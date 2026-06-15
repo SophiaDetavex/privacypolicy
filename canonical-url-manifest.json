@@ -1,5 +1,5 @@
 {
-  "revision": "2026-06-15-commercial-structure-no-shims",
+  "revision": "2026-06-15-project-scribe-icon-final",
   "host": "https://trustedfriendcorp.org",
   "canonical_structure": "tools/calculator/{appBranch}/",
   "shims_removed": true,
@@ -48,5 +48,23 @@
       "eula": "https://trustedfriendcorp.org/tools/calculator/A0000009/eula/",
       "contentRights": "https://trustedfriendcorp.org/tools/calculator/A0000009/content-rights/"
     }
-  }
+  },
+  "branch_asset_updates": {
+    "A0000008": {
+      "application": "Project Scribe",
+      "iconArtwork": "Project Scribe premium blue pen-and-page home screen icon",
+      "updatedAssets": [
+        "favicon.png",
+        "assets/img/app-icon-512.png",
+        "assets/img/app-icon-192.png",
+        "assets/img/apple-touch-icon.png",
+        "assets/img/favicon-32.png",
+        "assets/img/favicon-16.png",
+        "assets/img/social-card.png",
+        "site.webmanifest"
+      ]
+    }
+  },
+  "style_revision": "2026-06-15-commercial-spacing-and-organization",
+  "layout_system": "canonical/no-shim app branches with global commercial spacing tokens"
 }
