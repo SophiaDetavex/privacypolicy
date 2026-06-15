@@ -1,0 +1,52 @@
+{
+  "revision": "2026-06-15-commercial-structure-no-shims",
+  "host": "https://trustedfriendcorp.org",
+  "canonical_structure": "tools/calculator/{appBranch}/",
+  "shims_removed": true,
+  "branches": {
+    "A0000006": {
+      "application": "Great Calculator",
+      "base": "https://trustedfriendcorp.org/tools/calculator/A0000006/",
+      "privacy": "https://trustedfriendcorp.org/tools/calculator/A0000006/privacy/",
+      "privacyChoices": "https://trustedfriendcorp.org/tools/calculator/A0000006/privacy-choices/",
+      "support": "https://trustedfriendcorp.org/tools/calculator/A0000006/support/",
+      "accessibility": "https://trustedfriendcorp.org/tools/calculator/A0000006/accessibility/",
+      "ageSuitability": "https://trustedfriendcorp.org/tools/calculator/A0000006/age-suitability/",
+      "eula": "https://trustedfriendcorp.org/tools/calculator/A0000006/eula/",
+      "contentRights": "https://trustedfriendcorp.org/tools/calculator/A0000006/content-rights/"
+    },
+    "A0000007": {
+      "application": "Project Milepost",
+      "base": "https://trustedfriendcorp.org/tools/calculator/A0000007/",
+      "privacy": "https://trustedfriendcorp.org/tools/calculator/A0000007/privacy/",
+      "privacyChoices": "https://trustedfriendcorp.org/tools/calculator/A0000007/privacy-choices/",
+      "support": "https://trustedfriendcorp.org/tools/calculator/A0000007/support/",
+      "accessibility": "https://trustedfriendcorp.org/tools/calculator/A0000007/accessibility/",
+      "ageSuitability": "https://trustedfriendcorp.org/tools/calculator/A0000007/age-suitability/",
+      "eula": "https://trustedfriendcorp.org/tools/calculator/A0000007/eula/",
+      "contentRights": "https://trustedfriendcorp.org/tools/calculator/A0000007/content-rights/"
+    },
+    "A0000008": {
+      "application": "Project Scribe",
+      "base": "https://trustedfriendcorp.org/tools/calculator/A0000008/",
+      "privacy": "https://trustedfriendcorp.org/tools/calculator/A0000008/privacy/",
+      "privacyChoices": "https://trustedfriendcorp.org/tools/calculator/A0000008/privacy-choices/",
+      "support": "https://trustedfriendcorp.org/tools/calculator/A0000008/support/",
+      "accessibility": "https://trustedfriendcorp.org/tools/calculator/A0000008/accessibility/",
+      "ageSuitability": "https://trustedfriendcorp.org/tools/calculator/A0000008/age-suitability/",
+      "eula": "https://trustedfriendcorp.org/tools/calculator/A0000008/eula/",
+      "contentRights": "https://trustedfriendcorp.org/tools/calculator/A0000008/content-rights/"
+    },
+    "A0000009": {
+      "application": "Project Game Room",
+      "base": "https://trustedfriendcorp.org/tools/calculator/A0000009/",
+      "privacy": "https://trustedfriendcorp.org/tools/calculator/A0000009/privacy/",
+      "privacyChoices": "https://trustedfriendcorp.org/tools/calculator/A0000009/privacy-choices/",
+      "support": "https://trustedfriendcorp.org/tools/calculator/A0000009/support/",
+      "accessibility": "https://trustedfriendcorp.org/tools/calculator/A0000009/accessibility/",
+      "ageSuitability": "https://trustedfriendcorp.org/tools/calculator/A0000009/age-suitability/",
+      "eula": "https://trustedfriendcorp.org/tools/calculator/A0000009/eula/",
+      "contentRights": "https://trustedfriendcorp.org/tools/calculator/A0000009/content-rights/"
+    }
+  }
+}
