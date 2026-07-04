@@ -1,0 +1,74 @@
+{
+  "generated_at_utc": "2026-07-04T01:54:12.315843+00:00",
+  "site_uniformity_refresh": "2026-07-04",
+  "domain": "https://trustedfriendcorp.org",
+  "apps": [
+    {
+      "id": "A0000006",
+      "name": "Great Calculator",
+      "release": "1.3.3 (270)",
+      "kind": "Calculator utility",
+      "privacy_summary": "Great Calculator stores calculator preferences and history locally, discloses Google advertising/consent services, and contacts a currency-rate provider only for optional live exchange-rate requests.",
+      "ads": "Google AdMob banner advertising and Google UMP consent handling are disclosed for the free release."
+    },
+    {
+      "id": "A0000007",
+      "name": "Project Milepost",
+      "release": "1.9 (66)",
+      "kind": "Milestone and event tracker",
+      "privacy_summary": "Project Milepost stores personal milestones locally, accesses Calendar/photos only when chosen, and may show a compact Google AdMob banner when allowed.",
+      "ads": "Google AdMob compact top banner advertising is disclosed for this release."
+    },
+    {
+      "id": "A0000008",
+      "name": "Project Scribe",
+      "release": "1.3.1 (47)",
+      "kind": "Local writing workspace",
+      "privacy_summary": "Project Scribe is a local workspace. It does not include ads, tracking, account sign-in, analytics, or a developer cloud backend in the shipping target.",
+      "ads": "No advertising SDK or active advertising is included in the shipping target."
+    },
+    {
+      "id": "A0000009",
+      "name": "Project Game Room",
+      "release": "1.1 (91)",
+      "kind": "Offline mini-game collection",
+      "privacy_summary": "Project Game Room stores gameplay and settings locally. The current build has no active advertising, account system, purchases, chat, or sensitive device permission requests.",
+      "ads": "Advertising-readiness source is present, but ads are disabled by default and Google advertising packages are not linked in the current archive."
+    },
+    {
+      "id": "A0000010",
+      "name": "Project Calibrate",
+      "release": "0.1.6 (43)",
+      "kind": "Measurement and conversion utility",
+      "privacy_summary": "Project Calibrate stores preferences and calibration locally, uses hardware permissions only for active tools, requests a currency reference table when needed, and keeps Google AdMob dormant in Build 43.",
+      "ads": "Build 43 keeps Google AdMob dormant: no Google advertising packages, AdMob identifiers, banner requests, or UMP forms are present."
+    }
+  ],
+  "route_contract": [
+    "/",
+    "/privacy/",
+    "/support/",
+    "/accessibility/",
+    "/tools/calculator/",
+    "/tools/calculator/<app>/features/",
+    "/tools/calculator/<app>/privacy/",
+    "/tools/calculator/<app>/privacy-choices/",
+    "/tools/calculator/<app>/support/",
+    "/tools/calculator/<app>/accessibility/",
+    "/tools/calculator/<app>/age-suitability/",
+    "/tools/calculator/<app>/content-rights/",
+    "/tools/calculator/<app>/license-agreement/",
+    "/tools/calculator/<app>/eula/"
+  ],
+  "notes": "Generated to ensure every application has its own uniform subsection, full privacy/legal/support route set, and matching layout/theme.",
+  "app_ads_txt_verification_fix": {
+    "updated_at_utc": "2026-07-04T19:43:17+00:00",
+    "required_url": "https://trustedfriendcorp.org/app-ads.txt",
+    "required_line": "google.com, pub-5088634112140096, DIRECT, f08c47fec0942fa0",
+    "active_apps": [
+      "Great Calculator",
+      "Project Milepost"
+    ],
+    "reason": "Google AdMob verification reported app-ads.txt details mismatch; repository and deployment package now force an exact root-level seller line and remove placeholder templates."
+  }
+}
