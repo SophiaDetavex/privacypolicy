@@ -2,8 +2,9 @@
   "name": "Project Scribe",
   "short_name": "Scribe",
   "start_url": "https://trustedfriendcorp.org/tools/calculator/A0000008/",
+  "scope": "https://trustedfriendcorp.org/tools/calculator/A0000008/",
   "display": "standalone",
-  "background_color": "#075BFF",
+  "background_color": "#08111f",
   "theme_color": "#075BFF",
   "icons": [
     {
@@ -15,12 +16,6 @@
       "src": "assets/img/app-icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
-    },
-    {
-      "src": "assets/img/apple-touch-icon.png",
-      "sizes": "180x180",
-      "type": "image/png",
-      "purpose": "any"
     }
   ]
 }

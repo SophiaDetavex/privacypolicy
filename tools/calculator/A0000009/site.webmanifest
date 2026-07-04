@@ -1,8 +1,21 @@
 {
   "name": "Project Game Room",
   "short_name": "Game Room",
-  "start_url": "https://trustedfriendcorp.org/tools/calculator/A0000009/",
+  "description": "Official website for Project Game Room, including product details, privacy, support, accessibility, age suitability, license terms, and privacy choices.",
+  "start_url": ".",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#2563eb"
+  "background_color": "#0b1220",
+  "theme_color": "#f59e0b",
+  "icons": [
+    {
+      "src": "assets/img/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
