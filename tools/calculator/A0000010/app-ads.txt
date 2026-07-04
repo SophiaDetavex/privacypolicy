@@ -1,0 +1,2 @@
+# Project Calibrate 0.1.6 (43): no active advertising sellers are declared in this app subsection.
+# The live AdMob authorization file, when needed, belongs at https://trustedfriendcorp.org/app-ads.txt.
