@@ -4,8 +4,8 @@ This website package has been updated for Great Calculator’s official iPhone a
 
 ## Current website revision marker
 
-- `2026-05-03-a0000006-app-store-link-v115`
-- Effective date: May 2, 2026
+- `2026-06-24-a0000006-release-1-3-3-build-268`
+- Effective date: June 24, 2026
 
 ## Included public pages
 
@@ -26,9 +26,10 @@ This website package has been updated for Great Calculator’s official iPhone a
 - The support page now invites bug reports, calculation issues, layout reports, accessibility feedback, and feature requests.
 - The landing page now includes a clear statement that the developer actively reviews requests and continues updating the application for accuracy, reliability, efficiency, and user experience.
 - Public privacy copy distinguishes app behavior from website hosting behavior.
-- The calculator hub page one level above this site must link to `A0000006/` instead of the misspelled `ndex.html` path; the standalone uploaded website package was patched for this in v115.
+- Privacy, privacy-choice, and age-suitability pages disclose the consent-gated Google AdMob top banner introduced for the free build 268 release.
+- The calculator hub must link to the canonical `A0000006/` branch. Retired namespaces and historical typo routes are excluded from the controlled deployment package.
 
-## v115 App Store link alignment
+## Current App Store link alignment
 
 - Added public App Store product-page links to the landing page, footer navigation, structured data, web manifest related applications, and release docs.
 - App Store URL: `https://apps.apple.com/us/app/great-calculator/id6761633974`

@@ -1,0 +1,4 @@
+# Reference copy for the active AdMob publisher account.
+# The live crawler target must be deployed at the web-root URL:
+# https://trustedfriendcorp.org/app-ads.txt
+google.com, pub-5088634112140096, DIRECT, f08c47fec0942fa0
