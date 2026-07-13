@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Countdown Privacy Choices</title>
+  <meta name="description" content="Privacy-management choices for the current Project Countdown release.">
+  <meta name="theme-color" content="#0ea5e9">
+  <link rel="icon" href="../favicon.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/icons/app-icon-180.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Project Countdown Privacy Choices">
+  <meta property="og:description" content="Privacy-management choices for the current Project Countdown release.">
+  <meta property="og:image" content="../assets/icons/app-icon-512.png">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="../" aria-label="Project Countdown public information home">
+      <img class="brand__icon" src="../assets/icons/app-icon-192.png" alt="" width="54" height="54">
+      <span class="brand__text">
+        <span class="brand__eyebrow">Project A0000005</span>
+        <span class="brand__title">Project Countdown</span>
+        <span class="brand__subtitle">Countdowns, milestones, and timeline support</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary"><ul><li><a href="../index.html">Home</a></li><li><a href="../features/">Features</a></li><li><a aria-current="page" href="../privacy/">Privacy</a></li><li><a href="../support/">Support</a></li><li><a href="../accessibility/">Accessibility</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero"><div class="container"><div class="hero__panel"><div><p class="breadcrumbs"><a href="../">Home</a> / Privacy Choices</p><span class="hero__eyebrow">Privacy Choices</span><h1>Manage Project Countdown privacy choices.</h1><p>These options describe how to manage local countdown data, optional photos, support email, and permissions for the current release.</p><div class="hero__actions"><a class="button-link button-link--primary" href="../privacy/">Read Privacy Policy</a><a class="button-link button-link--secondary" href="../support/">Contact Support</a></div></div></div></div></section>
+<section class="section"><div class="container"><div class="feature-grid"><article class="feature-card"><h3>Delete countdown events</h3><p>Delete individual events from within the app. Removing an event removes that event’s title, date, notes, precision settings, and related local metadata.</p></article><article class="feature-card"><h3>Remove custom photos</h3><p>Clear a selected event background photo from the event editor or delete the event using that photo.</p></article><article class="feature-card"><h3>Revoke photo access</h3><p>Use iOS Settings to change or revoke Project Countdown photo-library permission.</p></article><article class="feature-card"><h3>Disable history packs</h3><p>Turn off curated history packs in the app to remove those generated history events from your local event list.</p></article><article class="feature-card"><h3>Delete app data</h3><p>Delete the app from the device to remove its local sandbox data, including countdowns, preferences, local photos, and recovery copies.</p></article><article class="feature-card"><h3>Choose what to email</h3><p>Support email is optional. Include only the details you want to share.</p></article></div></div></section>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-panel">
+      <div><strong>Project Countdown</strong><p class="small-note">Public product, privacy, support, accessibility, age-suitability, and legal information for Project Countdown.</p><p class="small-note">Effective date: April 2, 2026</p></div>
+      <nav class="footer-links" aria-label="Footer"><a href="../features/">Features</a><a href="../privacy/">Privacy</a><a href="../privacy-choices/">Privacy Choices</a><a href="../support/">Support</a><a href="../accessibility/">Accessibility</a><a href="../age-suitability/">Age Suitability</a><a href="../eula/">License</a><a href="../content-rights/">Content Rights</a><a href="mailto:trentshurts@gmail.com?subject=Project%20Countdown%20Support">Email Support</a></nav>
+    </div>
+    <p class="legal-credit">Apple, App Store, iPhone, and iPad are trademarks of Apple Inc. Project Countdown is an independent app and this website is not affiliated with Apple.</p>
+  </div>
+</footer>
+</body>
+</html>

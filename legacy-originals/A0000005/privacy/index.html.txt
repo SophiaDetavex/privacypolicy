@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Countdown Privacy Policy</title>
+  <meta name="description" content="Privacy policy for the current Project Countdown iPhone and iPad release.">
+  <meta name="theme-color" content="#0ea5e9">
+  <link rel="icon" href="../favicon.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/icons/app-icon-180.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Project Countdown Privacy Policy">
+  <meta property="og:description" content="Privacy policy for the current Project Countdown iPhone and iPad release.">
+  <meta property="og:image" content="../assets/icons/app-icon-512.png">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="../" aria-label="Project Countdown public information home">
+      <img class="brand__icon" src="../assets/icons/app-icon-192.png" alt="" width="54" height="54">
+      <span class="brand__text">
+        <span class="brand__eyebrow">Project A0000005</span>
+        <span class="brand__title">Project Countdown</span>
+        <span class="brand__subtitle">Countdowns, milestones, and timeline support</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary"><ul><li><a href="../index.html">Home</a></li><li><a href="../features/">Features</a></li><li><a aria-current="page" href="../privacy/">Privacy</a></li><li><a href="../support/">Support</a></li><li><a href="../accessibility/">Accessibility</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero"><div class="container"><div class="hero__panel"><div class="hero__grid"><div><p class="breadcrumbs"><a href="../">Home</a> / Privacy Policy</p><span class="hero__eyebrow">Privacy Policy</span><h1>Project Countdown is local-first by design.</h1><p>This policy describes the current Project Countdown release for iPhone and iPad. The core app does not require an account and does not track users across apps or websites.</p><div class="hero__actions"><a class="button-link button-link--primary" href="../privacy-choices/">Manage privacy choices</a><a class="button-link button-link--secondary" href="../support/">Contact support</a></div></div><div class="showcase-window"><div class="showcase-heading"><strong>Privacy summary</strong><span class="showcase-mode">Current release</span></div><div class="metrics"><div class="metric"><strong>Local</strong><span>Events and settings</span></div><div class="metric"><strong>Optional</strong><span>Photo library</span></div><div class="metric"><strong>No</strong><span>Cross-app tracking</span></div></div><p class="hero-note">Effective date: April 2, 2026</p></div></div></div></div></section>
+<section class="section"><div class="container"><div class="section__header"><h2>What the app stores locally</h2><p class="lead">The following information is used to provide the countdown experience and remains in the app’s local storage unless you delete it or remove the app.</p></div><div class="policy-grid"><article class="policy-card"><h3>Countdown events</h3><p>Event titles, dates, date precision, optional time values, notes, and view-related event metadata.</p></article><article class="policy-card"><h3>Preferences</h3><p>View mode, onboarding and EULA acknowledgement flags, enabled history packs, and app presentation preferences.</p></article><article class="policy-card"><h3>Local recovery copy</h3><p>A local backup/recovery copy of the event store may be kept to protect against accidental persistence failures.</p></article><article class="policy-card"><h3>Optional photos</h3><p>If you choose a custom background photo, the selected image is stored locally as an app-optimized copy.</p></article><article class="policy-card"><h3>Widget snapshots</h3><p>Widget support may use local shared-container snapshots so widgets can display selected countdown information.</p></article><article class="policy-card"><h3>Support email you send</h3><p>If you contact support, your email and the details you include are used to respond to your request.</p></article></div></div></section>
+<section class="section"><div class="container"><div class="section__panel"><div class="detail-grid"><article class="card"><h2>What does not happen in the current release</h2><ul class="list-clean"><li>No account is required for the core experience.</li><li>No third-party analytics SDK or crash-reporting SDK is used in the current release.</li><li>The current release does not track users across apps or websites.</li><li>Apple Ads attribution code exists as a disabled path and is not requested in the current release.</li><li>The app does not request camera, microphone, contacts, location, HealthKit, or notification permission in the current release.</li></ul></article><article class="card"><h2>Photo-library access</h2><p>Photo-library permission is requested only if you choose to select a custom event background. You can avoid this optional feature and still use the core countdown app.</p><p>You can remove selected photos in the app, revoke photo-library access in iOS Settings, or delete the app to remove local app data.</p></article></div></div></div></section>
+<section class="section"><div class="container"><div class="section__header"><h2>Retention and deletion</h2></div><div class="feature-grid"><article class="feature-card"><h3>Local data</h3><p>Countdowns, preferences, history-pack choices, and local photo copies remain until you delete them or remove the app.</p></article><article class="feature-card"><h3>Support email</h3><p>Support messages are retained as needed to respond, troubleshoot, and maintain support history.</p></article><article class="feature-card"><h3>Website hosting</h3><p>If this site is hosted on GitHub Pages, the hosting platform may log visitor IP addresses for security and operations. That host-level behavior is separate from the app.</p></article><article class="feature-card"><h3>Questions</h3><p>Email <a href="mailto:trentshurts@gmail.com?subject=Project%20Countdown%20Privacy%20Question">trentshurts@gmail.com</a> for privacy questions.</p></article></div></div></section>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-panel">
+      <div><strong>Project Countdown</strong><p class="small-note">Public product, privacy, support, accessibility, age-suitability, and legal information for Project Countdown.</p><p class="small-note">Effective date: April 2, 2026</p></div>
+      <nav class="footer-links" aria-label="Footer"><a href="../features/">Features</a><a href="../privacy/">Privacy</a><a href="../privacy-choices/">Privacy Choices</a><a href="../support/">Support</a><a href="../accessibility/">Accessibility</a><a href="../age-suitability/">Age Suitability</a><a href="../eula/">License</a><a href="../content-rights/">Content Rights</a><a href="mailto:trentshurts@gmail.com?subject=Project%20Countdown%20Support">Email Support</a></nav>
+    </div>
+    <p class="legal-credit">Apple, App Store, iPhone, and iPad are trademarks of Apple Inc. Project Countdown is an independent app and this website is not affiliated with Apple.</p>
+  </div>
+</footer>
+</body>
+</html>

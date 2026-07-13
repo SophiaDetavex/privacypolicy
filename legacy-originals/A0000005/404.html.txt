@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Countdown Page Not Found</title>
+  <meta name="description" content="The requested Project Countdown public page could not be found.">
+  <meta name="theme-color" content="#0ea5e9">
+  <link rel="icon" href="favicon.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/icons/app-icon-180.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="assets/styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Project Countdown Page Not Found">
+  <meta property="og:description" content="The requested Project Countdown public page could not be found.">
+  <meta property="og:image" content="assets/icons/app-icon-512.png">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="./" aria-label="Project Countdown public information home">
+      <img class="brand__icon" src="assets/icons/app-icon-192.png" alt="" width="54" height="54">
+      <span class="brand__text">
+        <span class="brand__eyebrow">Project A0000005</span>
+        <span class="brand__title">Project Countdown</span>
+        <span class="brand__subtitle">Countdowns, milestones, and timeline support</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary"><ul><li><a aria-current="page" href="index.html">Home</a></li><li><a href="features/">Features</a></li><li><a href="privacy/">Privacy</a></li><li><a href="support/">Support</a></li><li><a href="accessibility/">Accessibility</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero"><div class="container"><div class="hero__panel"><div><span class="hero__eyebrow">Page Not Found</span><h1>This Project Countdown page is not available.</h1><p>Use one of the links below to return to the current Project Countdown public-information site.</p><div class="hero__actions"><a class="button-link button-link--primary" href="./">Return Home</a><a class="button-link button-link--secondary" href="./privacy/">Privacy Policy</a><a class="button-link button-link--secondary" href="./support/">Support</a></div></div></div></div></section>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-panel">
+      <div><strong>Project Countdown</strong><p class="small-note">Public product, privacy, support, accessibility, age-suitability, and legal information for Project Countdown.</p><p class="small-note">Effective date: April 2, 2026</p></div>
+      <nav class="footer-links" aria-label="Footer"><a href="features/">Features</a><a href="privacy/">Privacy</a><a href="privacy-choices/">Privacy Choices</a><a href="support/">Support</a><a href="accessibility/">Accessibility</a><a href="age-suitability/">Age Suitability</a><a href="eula/">License</a><a href="content-rights/">Content Rights</a><a href="mailto:trentshurts@gmail.com?subject=Project%20Countdown%20Support">Email Support</a></nav>
+    </div>
+    <p class="legal-credit">Apple, App Store, iPhone, and iPad are trademarks of Apple Inc. Project Countdown is an independent app and this website is not affiliated with Apple.</p>
+  </div>
+</footer>
+</body>
+</html>

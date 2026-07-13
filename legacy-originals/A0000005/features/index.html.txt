@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Countdown Features</title>
+  <meta name="description" content="Feature overview for Project Countdown countdowns, timeline views, history packs, optional photos, and widgets.">
+  <meta name="theme-color" content="#0ea5e9">
+  <link rel="icon" href="../favicon.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/icons/app-icon-180.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Project Countdown Features">
+  <meta property="og:description" content="Feature overview for Project Countdown countdowns, timeline views, history packs, optional photos, and widgets.">
+  <meta property="og:image" content="../assets/icons/app-icon-512.png">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="../" aria-label="Project Countdown public information home">
+      <img class="brand__icon" src="../assets/icons/app-icon-192.png" alt="" width="54" height="54">
+      <span class="brand__text">
+        <span class="brand__eyebrow">Project A0000005</span>
+        <span class="brand__title">Project Countdown</span>
+        <span class="brand__subtitle">Countdowns, milestones, and timeline support</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary"><ul><li><a href="../index.html">Home</a></li><li><a aria-current="page" href="../features/">Features</a></li><li><a href="../privacy/">Privacy</a></li><li><a href="../support/">Support</a></li><li><a href="../accessibility/">Accessibility</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero"><div class="container"><div class="hero__panel"><div class="hero__grid"><div><p class="breadcrumbs"><a href="../">Home</a> / Features</p><span class="hero__eyebrow">Features</span><h1>Purpose-built countdown tools for personal events and historical milestones.</h1><p>Project Countdown combines fast event creation, view-mode flexibility, optional personalization, curated history packs, and widget support.</p><div class="chips"><span class="chip chip--accent">Card view</span><span class="chip chip--violet">Grid view</span><span class="chip chip--operator">Timeline view</span><span class="chip chip--success">Widgets</span></div></div><div class="timeline-preview"><div class="showcase-heading"><strong>Event workflow</strong><span class="showcase-mode">Create → View → Explore</span></div><div class="milestone-row"><span class="milestone-date">1</span><span class="milestone-title">Create an event</span><span class="milestone-count">Title + date</span></div><div class="milestone-row"><span class="milestone-date">2</span><span class="milestone-title">Choose precision</span><span class="milestone-count">Date or time</span></div><div class="milestone-row"><span class="milestone-date">3</span><span class="milestone-title">Explore views</span><span class="milestone-count">Card / Grid / Timeline</span></div></div></div></div></div></section>
+<section class="section"><div class="container"><div class="section__header"><span class="kicker">Core tools</span><h2>Countdown features included in the current app.</h2></div><div class="feature-grid">
+<article class="feature-card"><h3>Personal events</h3><ul><li>Create, edit, and delete countdown events.</li><li>Add optional notes for context or memory keeping.</li><li>Support date-only and date-and-time event precision.</li></ul></article>
+<article class="feature-card"><h3>Adaptive views</h3><ul><li>Card view for focused countdowns.</li><li>Grid view for scanning many events.</li><li>Interactive timeline view for chronological exploration.</li></ul></article>
+<article class="feature-card"><h3>Timeline engine</h3><ul><li>SpriteKit-backed panning and zooming.</li><li>Clustered event layout for dense timelines.</li><li>Focused event navigation from app state and widgets.</li></ul></article>
+<article class="feature-card"><h3>History packs</h3><ul><li>Curated milestone packs can be enabled or disabled.</li><li>History events sync locally with the event store.</li><li>History-pack choices stay in local preferences.</li></ul></article>
+<article class="feature-card"><h3>Optional photos</h3><ul><li>Choose a local photo for an event background.</li><li>Photo-library access is requested only when needed.</li><li>Selected images are stored as app-optimized local copies.</li></ul></article>
+<article class="feature-card"><h3>Widgets</h3><ul><li>Widget snapshots support featured countdown presentation.</li><li>Deep links can route back into relevant app views.</li><li>Shared widget support is scoped to the app group configuration.</li></ul></article>
+</div></div></section>
+<section class="section"><div class="container"><div class="section__panel"><div class="detail-grid"><article class="card"><h2>Compatibility note</h2><p>Project Countdown is designed for iPhone and iPad. The App Store listing and the submitted build remain the source of truth for exact platform availability, minimum OS version, and compatibility details.</p></article><article class="card card--success"><h2>Local-first posture</h2><p>Core countdown data and preferences are stored locally. No account is required for the current core experience.</p></article></div></div></div></section>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-panel">
+      <div><strong>Project Countdown</strong><p class="small-note">Public product, privacy, support, accessibility, age-suitability, and legal information for Project Countdown.</p><p class="small-note">Effective date: April 2, 2026</p></div>
+      <nav class="footer-links" aria-label="Footer"><a href="../features/">Features</a><a href="../privacy/">Privacy</a><a href="../privacy-choices/">Privacy Choices</a><a href="../support/">Support</a><a href="../accessibility/">Accessibility</a><a href="../age-suitability/">Age Suitability</a><a href="../eula/">License</a><a href="../content-rights/">Content Rights</a><a href="mailto:trentshurts@gmail.com?subject=Project%20Countdown%20Support">Email Support</a></nav>
+    </div>
+    <p class="legal-credit">Apple, App Store, iPhone, and iPad are trademarks of Apple Inc. Project Countdown is an independent app and this website is not affiliated with Apple.</p>
+  </div>
+</footer>
+</body>
+</html>

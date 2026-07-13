@@ -1,0 +1,87 @@
+<h1 id="great-calculator-privacy-site">Great Calculator Privacy Site</h1>
+<p>This repository bundle is a production-grade static site for <strong>Great Calculator</strong>. It is designed to support the app’s public-facing privacy, privacy choices, support, and accessibility links, and it is structured so it can be hosted cleanly on <strong>GitHub Pages</strong>.</p>
+<h2 id="repository-layout">Repository layout</h2>
+<ul>
+<li><code>docs/</code> — the public site content intended for GitHub Pages</li>
+<li><code>docs/index.html</code> — landing page</li>
+<li><code>docs/privacy/index.html</code> — privacy policy</li>
+<li><code>docs/privacy-choices/index.html</code> — privacy choices page</li>
+<li><code>docs/support/index.html</code> — support page</li>
+<li><code>docs/accessibility/index.html</code> — accessibility page</li>
+<li><code>docs/404.html</code> — custom not-found page</li>
+<li><code>docs/assets/</code> — CSS, icons, and social image</li>
+<li><code>docs/.nojekyll</code> — disables unwanted Jekyll processing</li>
+<li><code>docs/site.webmanifest</code> — browser metadata</li>
+<li><code>docs/robots.txt</code> — generic crawl rules</li>
+<li><code>site-config/robots.txt.template</code> — final robots template once the public base URL is known</li>
+<li><code>site-config/sitemap.xml.template</code> — final sitemap template once the public base URL is known</li>
+<li><code>site-config/CNAME.template</code> — optional custom-domain helper</li>
+<li><code>scripts/finalize_site.py</code> — generates <code>docs/sitemap.xml</code>, finalizes <code>docs/robots.txt</code>, and optionally writes <code>docs/CNAME</code></li>
+<li><code>scripts/validate_site.py</code> — local static validation for internal links and asset references</li>
+<li><code>.github/workflows/pages.yml</code> — optional GitHub Actions Pages deployment workflow</li>
+</ul>
+<h2 id="why-this-structure">Why this structure</h2>
+<p>The public site lives in <code>docs/</code> so you can use GitHub Pages branch publishing from <strong>main /docs</strong> without exposing maintainer files like workflow configuration and helper scripts as part of the public website.</p>
+<h2 id="deploy-on-github-pages">Deploy on GitHub Pages</h2>
+<h3 id="recommended-branch-publishing-from-main-and-docs-">Recommended: branch publishing from <code>main</code> and <code>/docs</code></h3>
+<ol>
+<li>Create a GitHub repository for the site.</li>
+<li>Upload this bundle so that <code>README.md</code>, <code>scripts/</code>, <code>.github/</code>, and <code>docs/</code> are at the repository root.</li>
+<li>In <strong>Settings → Pages</strong>, choose <strong>Deploy from a branch</strong>.</li>
+<li>Choose the <strong>main</strong> branch and the <strong>/docs</strong> folder.</li>
+<li>Enable <strong>Enforce HTTPS</strong> after the site becomes available.</li>
+</ol>
+<h3 id="optional-github-actions-deployment">Optional: GitHub Actions deployment</h3>
+<p>If you prefer GitHub Actions instead of branch publishing, this bundle includes <code>.github/workflows/pages.yml</code>. In <strong>Settings → Pages</strong>, choose <strong>GitHub Actions</strong> as the source.</p>
+<h2 id="finalize-the-site-after-you-know-the-public-base-url">Finalize the site after you know the public base URL</h2>
+<p>Run this from the repository root:</p>
+<pre><code class="lang-bash"><span class="hljs-keyword">python3</span> scripts/finalize_site.<span class="hljs-keyword">py</span> http<span class="hljs-variable">s:</span>//<span class="hljs-symbol">&lt;owner&gt;</span>.github.io/<span class="hljs-symbol">&lt;repo&gt;</span>
+</code></pre>
+<p>Example:</p>
+<pre><code class="lang-bash">python3 scripts/finalize_site<span class="hljs-selector-class">.py</span> https:<span class="hljs-comment">//example.github.io/greatcalculator-privacy</span>
+</code></pre>
+<p>With a custom domain:</p>
+<pre><code class="lang-bash"><span class="hljs-keyword">python3</span> scripts/finalize_site.<span class="hljs-keyword">py</span> http<span class="hljs-variable">s:</span>//privacy.example.<span class="hljs-keyword">com</span> --cname privacy.example.<span class="hljs-keyword">com</span>
+</code></pre>
+<p>The script will:</p>
+<ul>
+<li>generate <code>docs/sitemap.xml</code></li>
+<li>generate a final <code>docs/robots.txt</code> with the sitemap URL</li>
+<li>optionally write <code>docs/CNAME</code></li>
+<li>print the exact public URLs for:<ul>
+<li>Privacy Policy</li>
+<li>Privacy Choices</li>
+<li>Support</li>
+<li>Accessibility</li>
+<li>Home / Marketing</li>
+</ul>
+</li>
+</ul>
+<h2 id="validate-locally-before-publishing">Validate locally before publishing</h2>
+<p>Run:</p>
+<pre><code class="lang-bash"><span class="hljs-keyword">python3</span> scripts/validate_site.<span class="hljs-keyword">py</span>
+</code></pre>
+<p>This checks that internal relative links and asset references resolve correctly inside <code>docs/</code>.</p>
+<h2 id="suggested-app-store-metadata-urls">Suggested App Store metadata URLs</h2>
+<p>After the site is live, use URLs in this pattern:</p>
+<ul>
+<li>Privacy Policy URL: <code>https://&lt;base&gt;/privacy/</code></li>
+<li>Support URL: <code>https://&lt;base&gt;/support/</code></li>
+<li>Accessibility URL: <code>https://&lt;base&gt;/accessibility/</code></li>
+<li>Optional User Privacy Choices URL: <code>https://&lt;base&gt;/privacy-choices/</code></li>
+</ul>
+<h2 id="current-app-specific-posture-reflected-by-this-site">Current app-specific posture reflected by this site</h2>
+<p>This site is tailored to the current Great Calculator implementation:</p>
+<ul>
+<li>most calculations happen on-device</li>
+<li>the app stores local preferences, onboarding flags, committed history, and a small exchange-rate cache in app-private storage</li>
+<li>live currency requests use Frankfurter only when requested by the user</li>
+<li>the current release does not create user accounts</li>
+<li>the current release does not use third-party analytics SDKs</li>
+<li>the current release does not request camera, microphone, contacts, photo library, location, or HealthKit access</li>
+<li>the current release keeps the Apple Ads attribution path disabled</li>
+</ul>
+<h2 id="effective-date">Effective date</h2>
+<ul>
+<li>March 24, 2026</li>
+</ul>

@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Great Calculator.">
+  <meta name="theme-color" content="#2563eb">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="Great Calculator Privacy Policy">
+  <meta property="og:description" content="Privacy Policy for Great Calculator.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../assets/img/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Great Calculator Privacy Policy">
+  <meta name="twitter:description" content="Privacy Policy for Great Calculator.">
+  <meta name="twitter:image" content="../assets/img/social-card.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16.png">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <title>Great Calculator Privacy Policy</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="../">
+      <img class="brand__icon" src="../assets/img/app-icon-192.png" alt="Great Calculator app icon" width="52" height="52">
+      <span class="brand__text">
+        <span class="brand__eyebrow">Public Information</span>
+        <span class="brand__title">Great Calculator</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary"><ul><li><a href="../">Home</a></li><li><a href="../privacy/" aria-current="page">Privacy</a></li><li><a href="../support/">Support</a></li><li><a href="../accessibility/">Accessibility</a></li></ul></nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <div class="hero__panel">
+        <div class="breadcrumbs"><a href="../">Home</a> / Privacy Policy</div>
+        <div class="hero__grid">
+          <div class="hero__content">
+            <span class="hero__eyebrow">Privacy Policy</span>
+            <h1>Great Calculator is designed to run primarily on your device.</h1>
+            <p>
+              Most calculations happen locally. This policy explains what the app stores, what information may leave
+              your device when you use specific features, and how to manage your choices in the current release.
+            </p>
+            <div class="hero__actions">
+              <a class="button-link button-link--primary" href="../privacy-choices/">Manage Privacy Choices</a>
+              <a class="button-link button-link--secondary" href="../support/">Contact Support</a>
+            </div>
+            <div class="chips">
+              <span class="chip chip--success">No account</span>
+              <span class="chip chip--success">No cross-app tracking</span>
+              <span class="chip chip--success">HealthKit not used</span>
+              <span class="chip chip--operator">Live rates on demand</span>
+            </div>
+          </div>
+          <aside class="hero__meta">
+            <div class="stat-card">
+              <h2>Policy details</h2>
+              <p>Effective date: March 24, 2026</p>
+              <p>Applies to the current iPhone and iPad release of Great Calculator.</p>
+            </div>
+            <div class="stat-card">
+              <h3>Contact</h3>
+              <p><a href="mailto:trentshurts@gmail.com">trentshurts@gmail.com</a></p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="summary">
+    <div class="container">
+      <div class="section__panel">
+        <h2>Privacy summary</h2>
+        <p class="lead">This summary is written to be clear and explicit about the current release.</p>
+        <div class="data-table-wrapper">
+          <table class="policy-table">
+            <caption>Current-release privacy summary for Great Calculator</caption>
+            <thead>
+              <tr><th scope="col">Topic</th><th scope="col">Current release behavior</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Accounts</td><td>No account, sign-in, or cloud profile is required to use the app.</td></tr>
+              <tr><td>Tracking</td><td>No cross-app or cross-website tracking is performed in the current release.</td></tr>
+              <tr><td>Advertising</td><td>No active in-app advertising is shown in the current release.</td></tr>
+              <tr><td>Apple Ads attribution</td><td>The binary contains a default-off Apple Ads attribution path, but the current release keeps it disabled and does not request attribution.</td></tr>
+              <tr><td>Analytics / crash reporting</td><td>No third-party analytics or crash-reporting SDKs are used in the current release.</td></tr>
+              <tr><td>Local storage</td><td>The app stores settings, onboarding acceptance flags, committed calculation history, and a small cache of recently fetched currency rates in the app’s private local storage.</td></tr>
+              <tr><td>Network activity</td><td>The app contacts an external service only when you request a live currency conversion rate, or when you choose to contact support using your email app.</td></tr>
+              <tr><td>Sensitive permissions</td><td>The current release does not request access to camera, microphone, contacts, photo library, location, or HealthKit.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="callout callout--accent">
+          <p><strong>Important:</strong> If a future version adds accounts, syncing, analytics, advertising, or new external services, this policy should be updated before that version is released.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="local-data">
+    <div class="container">
+      <div class="section__panel">
+        <h2>What Great Calculator stores on your device</h2>
+        <p class="lead">The app stores certain information locally so it can remember your setup and preserve committed results between launches.</p>
+        <div class="cards">
+          <article class="card card--half">
+            <h3>Preferences and local app state</h3>
+            <ul class="list-clean">
+              <li>appearance preference, such as light or dark theme</li>
+              <li>haptics preference, when supported by the device</li>
+              <li>number formatting, percent mode, answer format, and angle-unit preferences</li>
+              <li>first-launch onboarding and EULA/welcome acknowledgement state</li>
+            </ul>
+          </article>
+          <article class="card card--half">
+            <h3>Committed history and rate cache</h3>
+            <ul class="list-clean">
+              <li>committed calculator history entries, including calculator type, expression, result, and timestamp</li>
+              <li>a small local cache of recent currency exchange rates used to improve resilience when the device is temporarily offline</li>
+              <li>file-backed history snapshots in the app’s Application Support area for durability</li>
+            </ul>
+          </article>
+        </div>
+        <div class="callout callout--success">
+          <p><strong>Local storage purpose:</strong> This information is stored locally so the app can preserve your preferences, keep history available between launches, and avoid unnecessary repeated currency-rate lookups.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="network">
+    <div class="container">
+      <div class="section__panel">
+        <h2>What may leave your device</h2>
+        <p class="lead">The current release keeps off-device activity limited and user-initiated.</p>
+        <h3>Live currency exchange-rate lookups</h3>
+        <p>When you use the Money calculator’s currency-conversion mode and request a live rate, the app sends the selected source currency code and destination currency code to the Frankfurter exchange-rate service.</p>
+        <ul class="list-clean">
+          <li>The app does <strong>not</strong> need to send your full calculation history to fetch a rate.</li>
+          <li>The conversion amount is calculated locally after the rate is returned.</li>
+          <li>As with any HTTPS request, the service provider and network infrastructure may receive standard connection metadata such as IP address, timing, and basic technical request information.</li>
+        </ul>
+        <h3>Support email you choose to send</h3>
+        <p>If you tap an email support link, the app hands control to your email application using a standard <span class="inline-code">mailto:</span> link. You choose whether to send the message. If you do, we may receive your email address, message content, and any attachments you choose to include.</p>
+        <h3>Apple Ads attribution path</h3>
+        <p>The codebase includes a default-off Apple Ads attribution integration, but the current release keeps the feature disabled. In the current release, the app does not request Apple Ads attribution and does not use the feature for tracking or targeted advertising.</p>
+        <h3>Visits to this public website</h3>
+        <p>If this privacy site is hosted on GitHub Pages, GitHub states that visitor IP addresses are logged and stored for security purposes. That website-host behavior is separate from how the app itself works.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="uses">
+    <div class="container">
+      <div class="section__panel">
+        <h2>How information is used</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>App functionality</h3>
+            <p>Preferences and local state are used so the app launches in the same configuration you selected previously.</p>
+          </article>
+          <article class="card">
+            <h3>History and continuity</h3>
+            <p>Committed history is used to let you review, recall, and manage prior calculations from within the app.</p>
+          </article>
+          <article class="card">
+            <h3>Currency conversion</h3>
+            <p>Live rate requests are used only to return the exchange rate necessary to complete the conversion you requested.</p>
+          </article>
+          <article class="card card--full">
+            <h3>Support</h3>
+            <p>If you contact support, we use the information you send to answer your question, troubleshoot the issue, and maintain basic support records.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="third-parties">
+    <div class="container">
+      <div class="section__panel">
+        <h2>Third parties and service providers</h2>
+        <p class="lead">The current release does not integrate third-party analytics or advertising SDKs. Limited third-party services may still be involved when you intentionally use certain external paths.</p>
+        <div class="data-table-wrapper">
+          <table class="policy-table">
+            <caption>Third-party services relevant to the current release</caption>
+            <thead>
+              <tr>
+                <th scope="col">Service</th>
+                <th scope="col">When it is used</th>
+                <th scope="col">Data involved</th>
+                <th scope="col">Why it is used</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Frankfurter exchange-rate service</td>
+                <td>Only when you request a live currency rate</td>
+                <td>Selected source/destination currency codes and standard connection metadata inherent to the network request</td>
+                <td>Return the live rate needed for the currency conversion you requested</td>
+              </tr>
+              <tr>
+                <td>Your email provider / mail app</td>
+                <td>Only if you choose to contact support by email</td>
+                <td>Your email address, the message you send, and any attachments you choose to include</td>
+                <td>Transmit your support request</td>
+              </tr>
+              <tr>
+                <td>GitHub Pages (site hosting)</td>
+                <td>Only when you visit this public website</td>
+                <td>Website visit metadata handled by the hosting platform, including security logs</td>
+                <td>Host this public information site</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="callout callout--operator">
+          <p><strong>Third-party scope:</strong> The app is designed to minimize third-party disclosure. The current release does not share your data with advertising networks for targeted advertising and does not use third-party analytics SDKs to profile you across apps or websites.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="retention">
+    <div class="container">
+      <div class="section__panel">
+        <h2>Retention and deletion</h2>
+        <div class="cards">
+          <article class="card card--half">
+            <h3>Data stored locally in the app</h3>
+            <p>Local settings, onboarding flags, history, and cached exchange rates remain on the device until you clear the relevant data in the app, overwrite it through normal use, or uninstall the app.</p>
+          </article>
+          <article class="card card--half">
+            <h3>Support emails</h3>
+            <p>If you email support, correspondence may be retained for as long as reasonably necessary to respond, troubleshoot, and keep basic service records, subject to legal obligations.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="choices">
+    <div class="container">
+      <div class="section__panel">
+        <h2>Your choices and controls</h2>
+        <p class="lead">The current release is designed so that most privacy choices are direct and local.</p>
+        <ul class="list-clean">
+          <li><strong>Clear history:</strong> Use the app’s history controls to remove individual history items or clear all saved history.</li>
+          <li><strong>Avoid live requests:</strong> Do not use the live currency-rate lookup if you prefer not to send a one-time exchange-rate request.</li>
+          <li><strong>Do not send support email:</strong> You control whether to open your mail app and whether to send a support message.</li>
+          <li><strong>Delete local data:</strong> Uninstalling the app removes the app and its sandboxed local storage from your device.</li>
+        </ul>
+        <div class="hero__actions">
+          <a class="button-link button-link--primary" href="../privacy-choices/">Open the Privacy Choices page</a>
+        </div>
+        <div class="callout callout--success">
+          <p><strong>No account deletion workflow is needed in the current release</strong> because the app does not create or require user accounts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="children">
+    <div class="container">
+      <div class="section__panel">
+        <h2>Children’s privacy</h2>
+        <p>The current release is not designed to require personal information from children in order to function. Great Calculator does not require account creation, and most features work entirely on-device. If a child voluntarily sends a support email, the email will be handled like any other support request.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="changes">
+    <div class="container">
+      <div class="section__panel">
+        <h2>Changes to this policy</h2>
+        <p>We may update this privacy policy when the app’s privacy practices change, when functionality changes, or when legal or platform requirements change. The effective date at the top of this page will be updated when a material revision is published.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section__panel">
+        <h2>Contact</h2>
+        <p>If you have privacy or support questions about Great Calculator, contact <a href="mailto:trentshurts@gmail.com">trentshurts@gmail.com</a>.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer>
+  <div class="container">
+    <div class="footer-panel">
+      <div>
+        <strong>Great Calculator</strong><br>
+        Public privacy, support, accessibility, and privacy choices information.<br>
+        Effective date: March 24, 2026
+      </div>
+      <div class="footer-links">
+        <a href="../privacy/">Privacy</a>
+        <a href="../privacy-choices/">Privacy Choices</a>
+        <a href="../support/">Support</a>
+        <a href="../accessibility/">Accessibility</a>
+        <a href="mailto:trentshurts@gmail.com">Email Support</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

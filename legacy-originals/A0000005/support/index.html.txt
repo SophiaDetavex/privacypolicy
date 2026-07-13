@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Countdown Support</title>
+  <meta name="description" content="Support information and reporting template for Project Countdown.">
+  <meta name="theme-color" content="#0ea5e9">
+  <link rel="icon" href="../favicon.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/icons/app-icon-180.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Project Countdown Support">
+  <meta property="og:description" content="Support information and reporting template for Project Countdown.">
+  <meta property="og:image" content="../assets/icons/app-icon-512.png">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="../" aria-label="Project Countdown public information home">
+      <img class="brand__icon" src="../assets/icons/app-icon-192.png" alt="" width="54" height="54">
+      <span class="brand__text">
+        <span class="brand__eyebrow">Project A0000005</span>
+        <span class="brand__title">Project Countdown</span>
+        <span class="brand__subtitle">Countdowns, milestones, and timeline support</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary"><ul><li><a href="../index.html">Home</a></li><li><a href="../features/">Features</a></li><li><a href="../privacy/">Privacy</a></li><li><a aria-current="page" href="../support/">Support</a></li><li><a href="../accessibility/">Accessibility</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero"><div class="container"><div class="hero__panel"><div class="hero__grid"><div><p class="breadcrumbs"><a href="../">Home</a> / Support</p><span class="hero__eyebrow">Support</span><h1>Get support for Project Countdown.</h1><p>Use this page for bug reports, feature requests, accessibility feedback, and questions about countdowns, timeline behavior, photos, history packs, or widgets.</p><div class="hero__actions"><a class="button-link button-link--primary" href="mailto:trentshurts@gmail.com?subject=Project%20Countdown%20Support">Email Support</a><a class="button-link button-link--secondary" href="../privacy/">Privacy Policy</a></div></div><div class="showcase-window"><div class="showcase-heading"><strong>Support email</strong><span class="showcase-mode">Public</span></div><p><a href="mailto:trentshurts@gmail.com?subject=Project%20Countdown%20Support">trentshurts@gmail.com</a></p><p class="hero-note">Include enough detail to reproduce the issue whenever possible.</p></div></div></div></div></section>
+<section class="section"><div class="container"><div class="section__header"><h2>What to include</h2><p class="lead">The best reports identify the exact screen, event data, expected behavior, and actual behavior.</p></div><div class="detail-grid"><article class="card"><h3>Useful report details</h3><ul class="list-clean"><li>Device model and iOS / iPadOS version.</li><li>App version and build if available.</li><li>View mode: card, grid, timeline, composer, widget, or settings.</li><li>Event precision: date-only or date-and-time.</li><li>Device time zone and whether the issue appears after a time-zone change.</li><li>Steps to reproduce the behavior.</li></ul></article><article class="card"><h3>Support template</h3><pre class="support-template">Project Countdown support request
+
+Device model:
+iOS / iPadOS version:
+App version and build:
+Screen or feature: Card view / Grid view / Timeline / Event composer / Photo background / History packs / Widget / Other
+Event precision: Date-only / Date-and-time
+Device time zone:
+Appearance: Light / Dark
+Text size or accessibility settings, if relevant:
+
+Expected behavior:
+Actual behavior:
+Steps to reproduce:
+Screenshot or screen recording available: Yes / No</pre></article></div></div></section>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-panel">
+      <div><strong>Project Countdown</strong><p class="small-note">Public product, privacy, support, accessibility, age-suitability, and legal information for Project Countdown.</p><p class="small-note">Effective date: April 2, 2026</p></div>
+      <nav class="footer-links" aria-label="Footer"><a href="../features/">Features</a><a href="../privacy/">Privacy</a><a href="../privacy-choices/">Privacy Choices</a><a href="../support/">Support</a><a href="../accessibility/">Accessibility</a><a href="../age-suitability/">Age Suitability</a><a href="../eula/">License</a><a href="../content-rights/">Content Rights</a><a href="mailto:trentshurts@gmail.com?subject=Project%20Countdown%20Support">Email Support</a></nav>
+    </div>
+    <p class="legal-credit">Apple, App Store, iPhone, and iPad are trademarks of Apple Inc. Project Countdown is an independent app and this website is not affiliated with Apple.</p>
+  </div>
+</footer>
+</body>
+</html>

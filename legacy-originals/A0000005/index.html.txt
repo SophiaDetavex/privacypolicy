@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=../A0000007/">
+  <link rel="canonical" href="https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000007/">
+  <title>Project Milepost Marketing Moved</title>
+  <style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5;max-width:760px;margin:4rem auto;padding:0 1.25rem;color:#0f172a}a{color:#0369a1}</style>
+</head>
+<body>
+  <main>
+    <h1>Project Milepost marketing page moved.</h1>
+    <p>The current Project Milepost Marketing URL is now <a href="../A0000007/">A0000007</a>.</p>
+    <p>Use this App Store Marketing URL:</p>
+    <p><code>https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000007/</code></p>
+  </main>
+</body>
+</html>

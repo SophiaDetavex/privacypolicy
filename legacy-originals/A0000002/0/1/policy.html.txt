@@ -1,0 +1,298 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+	 <style>
+      body {
+        background-image: url("https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000002/1/1/intro_bg.png");
+        background-repeat: repeat;
+      }  
+</style>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Liberation Serif";}
+@font-face
+	{font-family:"Liberation Sans";}
+@font-face
+	{font-family:"Liberation Mono";}
+@font-face
+	{font-family:"AR PL SungtiL GB";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Noto Sans Devanagari";
+	panose-1:2 11 5 2 4 5 4 2 2 4;}
+ /* Style Definitions */
+ p.PreformattedText, li.PreformattedText, div.PreformattedText
+	{mso-style-name:"Preformatted Text";
+	margin:0in;
+	font-size:10.0pt;
+	font-family:"Liberation Mono";}
+.MsoChpDefault
+	{font-size:12.0pt;
+	font-family:"Liberation Serif",serif;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:56.7pt 56.7pt 56.7pt 56.7pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=PreformattedText>═══════════════════════════════════════════════════════════</p>
+
+<p class=PreformattedText>GREAT CALCULATOR - APP STORE DESCRIPTION</p>
+
+<p class=PreformattedText>Copy each section below as needed</p>
+
+<p class=PreformattedText>═══════════════════════════════════════════════════════════</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&#128241; SUBTITLE (30 characters max)</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>Scientific &amp; Graphing Math</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&#128221; PROMOTIONAL TEXT (170 characters max)</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>The ultimate calculator with Basic, Scientific, and
+Graphing modes. Solve equations, plot graphs, display fractions. No ads, no
+subscriptions. Perfect for students.</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&#128273; KEYWORDS (100 characters max)</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>calculator,scientific,graphing,algebra,math,fractions,equation,solver,trig,student,homework,calculus</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&#128196; FULL DESCRIPTION (4000 characters max)</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>Great Calculator is the powerful, all-in-one
+calculator designed for students, professionals, and anyone who needs reliable
+math tools. With three distinct modes and smart display features, it's the only
+calculator app you'll ever need.</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>THREE POWERFUL MODES</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>Basic Calculator</p>
+
+<p class=PreformattedText>Perfect for everyday math. Clean, intuitive design
+with large buttons for quick calculations. Includes percentage, memory
+functions, and parentheses for complex expressions.</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>Scientific Calculator  </p>
+
+<p class=PreformattedText>Full-featured scientific calculator with
+trigonometric functions (sin, cos, tan), logarithms (log, ln), powers, roots,
+and constants (π, e). Perfect for algebra, trigonometry, and calculus homework.</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>Graphing Calculator</p>
+
+<p class=PreformattedText>Plot mathematical functions with an interactive
+graph. Trace along curves to find exact coordinates. Essential for visualizing
+equations and understanding mathematical relationships.</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>SMART DISPLAY MODES</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>• Fractions Mode - See answers as proper fractions (⅓
+instead of 0.333...)</p>
+
+<p class=PreformattedText>• Radicals Mode - Display square roots with √ symbols
+(√2 instead of 1.414...)</p>
+
+<p class=PreformattedText>• Percent Mode - Keep percentage symbols in your
+results</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>ALGEBRA &amp; EQUATION SOLVING</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>Enter equations with variables using the ABC
+keyboard. Great Calculator solves linear, quadratic, cubic, quartic, and
+quintic equations - up to degree 5! Perfect for checking homework and learning
+algebra.</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>BUILT FOR STUDENTS</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>Whether you're in middle school learning fractions or
+in college tackling calculus, Great Calculator grows with you. The fraction and
+radical display modes make it perfect for showing your work the way teachers
+expect.</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>PREMIUM FEATURES INCLUDED</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>• Beautiful dark and light themes</p>
+
+<p class=PreformattedText>• Calculation history - review past work anytime</p>
+
+<p class=PreformattedText>• Memory functions (MC, MR, M+)</p>
+
+<p class=PreformattedText>• Haptic feedback for satisfying button presses</p>
+
+<p class=PreformattedText>• Works offline - no internet required</p>
+
+<p class=PreformattedText>• Privacy focused - no data collection</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>NO ADS. NO SUBSCRIPTIONS. NO TRICKS.</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>Great Calculator is completely free with no hidden
+costs. No annoying ads interrupting your calculations. No premium tier to
+unlock features. Everything is included from the start.</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>YOUR FEEDBACK MATTERS</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>We're committed to making Great Calculator the best
+it can be. Have a suggestion or found an issue? We'd love to hear from you
+through the App Store reviews or support contact.</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>Download Great Calculator today and experience math
+the way it should be - simple, powerful, and beautiful.</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>ℹ️ SUPPORT URL</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>https://github.com/trustedfriend/great-calculator/issues</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&#128274; PRIVACY POLICY URL</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>https://github.com/trustedfriend/great-calculator/blob/main/PRIVACY.md</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&#128194; CATEGORY</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>Primary: Utilities</p>
+
+<p class=PreformattedText>Secondary: Education</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&#127919; AGE RATING</p>
+
+<p class=PreformattedText>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>4+ (No objectionable content)</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>&nbsp;</p>
+
+<p class=PreformattedText>═══════════════════════════════════════════════════════════</p>
+
+</div>
+
+</body>
+
+</html>

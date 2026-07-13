@@ -1,47 +1,67 @@
 {
-  "generated_at_utc": "2026-07-04T01:54:12.315843+00:00",
-  "site_uniformity_refresh": "2026-07-04",
+  "generated_at_utc": "2026-07-13T00:00:00Z",
+  "site_revision": "2026-07-13",
   "domain": "https://trustedfriendcorp.org",
   "apps": [
     {
       "id": "A0000006",
       "name": "Great Calculator",
       "release": "1.3.3 (270)",
-      "kind": "Calculator utility",
-      "privacy_summary": "Great Calculator stores calculator preferences and history locally, discloses Google advertising/consent services, and contacts a currency-rate provider only for optional live exchange-rate requests.",
-      "ads": "Google AdMob banner advertising and Google UMP consent handling are disclosed for the free release."
+      "kind": "Advanced calculator and conversion utility",
+      "privacy_summary": "Great Calculator keeps calculations, saved history, and preferences on the device; uses network access only for selected service-backed features; and integrates a consent-aware Google AdMob banner in the free release.",
+      "advertising": "The free release integrates one Google AdMob banner and Google's UMP consent flow. Ad requests are fail-closed when consent or production identifiers do not permit serving. An ad-free purchase is not represented by this source package.",
+      "active_ads": true,
+      "source_status": "Source-aligned review completed against Great Calculator 1.3.3 build 270."
     },
     {
       "id": "A0000007",
       "name": "Project Milepost",
-      "release": "1.9 (66)",
+      "release": "1.9.1 (67)",
       "kind": "Milestone and event tracker",
-      "privacy_summary": "Project Milepost stores personal milestones locally, accesses Calendar/photos only when chosen, and may show a compact Google AdMob banner when allowed.",
-      "ads": "Google AdMob compact top banner advertising is disclosed for this release."
+      "privacy_summary": "Project Milepost keeps milestone records and selected media locally or in its shared app-group container, accesses Calendar and Photos only when chosen, and integrates a consent-aware Google AdMob banner.",
+      "advertising": "The free release integrates one Google AdMob banner with Google UMP consent handling. Advertising is blocked before requests when configuration or consent is not eligible and the banner lane collapses after a definitive revocation.",
+      "active_ads": true,
+      "source_status": "Source-aligned review completed against Project Milepost 1.9.1 build 67."
     },
     {
       "id": "A0000008",
       "name": "Project Scribe",
-      "release": "1.3.1 (47)",
-      "kind": "Local writing workspace",
-      "privacy_summary": "Project Scribe is a local workspace. It does not include ads, tracking, account sign-in, analytics, or a developer cloud backend in the shipping target.",
-      "ads": "No advertising SDK or active advertising is included in the shipping target."
+      "release": "1.3.2 (48)",
+      "kind": "Local writing and whiteboard workspace",
+      "privacy_summary": "Project Scribe stores writing projects, workspace organization, and whiteboard content locally; accesses user-selected files only for deliberate import/export; and integrates a consent-aware Google AdMob banner.",
+      "advertising": "The free release integrates one Google AdMob banner and Google UMP consent flow. Startup is single-flight, invalid or cross-publisher identifiers fail closed, and the banner is removed immediately after a definitive consent revocation.",
+      "active_ads": true,
+      "source_status": "Source-aligned review completed against Project Scribe 1.3.2 build 48."
     },
     {
       "id": "A0000009",
       "name": "Project Game Room",
       "release": "1.1 (91)",
       "kind": "Offline mini-game collection",
-      "privacy_summary": "Project Game Room stores gameplay and settings locally. The current build has no active advertising, account system, purchases, chat, or sensitive device permission requests.",
-      "ads": "Advertising-readiness source is present, but ads are disabled by default and Google advertising packages are not linked in the current archive."
+      "privacy_summary": "Project Game Room's published profile describes local gameplay, settings, and progress with no active advertising, account system, purchases, chat, or sensitive device permission requests in release 1.1 build 91.",
+      "advertising": "No active advertising is represented in the published release profile for version 1.1 build 91.",
+      "active_ads": false,
+      "source_status": "Application source for Project Game Room was not included in the July 12, 2026 portfolio package. This branch preserves the published 1.1 (91) profile and must be revalidated against the actual release binary before submission."
     },
     {
       "id": "A0000010",
       "name": "Project Calibrate",
-      "release": "0.1.6 (43)",
-      "kind": "Measurement and conversion utility",
-      "privacy_summary": "Project Calibrate stores preferences and calibration locally, uses hardware permissions only for active tools, requests a currency reference table when needed, and keeps Google AdMob dormant in Build 43.",
-      "ads": "Build 43 keeps Google AdMob dormant: no Google advertising packages, AdMob identifiers, banner requests, or UMP forms are present."
+      "release": "0.1.7 (44)",
+      "kind": "Measurement, calibration, and conversion utility",
+      "privacy_summary": "Project Calibrate stores settings and calibration state locally, accesses camera, microphone, and motion sensors only for user-invoked tools, optionally retrieves currency reference rates, and integrates a consent-aware Google AdMob banner.",
+      "advertising": "Build 44 integrates one compact Google AdMob banner in a top, centered normal-flow lane and Google UMP consent flow. Invalid, demonstration, blank, or cross-publisher identifiers fail closed; the initial layout is stable while consent is unresolved; and the banner lane collapses after a definitive block or revocation.",
+      "active_ads": true,
+      "source_status": "Source-aligned review completed against Project Calibrate 0.1.7 build 44."
+    },
+    {
+      "id": "A0000011",
+      "name": "Great Chess",
+      "release": "1.0 (1)",
+      "kind": "Premium offline chess game",
+      "privacy_summary": "Great Chess is a paid, offline-first game. It stores preferences, saved games, and statistics locally; has no advertising, analytics, account system, or developer cloud backend; and declares no protected device permission usage descriptions.",
+      "advertising": "No advertising SDK, ad request, consent SDK, or ad-supported mode is included in the audited premium release.",
+      "active_ads": false,
+      "source_status": "Source-aligned review completed against Great Chess 1.0 build 1. The age-suitability and content-rights pages were refreshed on July 13, 2026 for the current App Store Connect questionnaire, including the social-media capability question introduced in July 2026."
     }
   ],
   "route_contract": [
@@ -60,15 +80,15 @@
     "/tools/calculator/<app>/license-agreement/",
     "/tools/calculator/<app>/eula/"
   ],
-  "notes": "Generated to ensure every application has its own uniform subsection, full privacy/legal/support route set, and matching layout/theme.",
-  "app_ads_txt_verification_fix": {
-    "updated_at_utc": "2026-07-04T19:43:17+00:00",
+  "app_ads_txt": {
     "required_url": "https://trustedfriendcorp.org/app-ads.txt",
     "required_line": "google.com, pub-5088634112140096, DIRECT, f08c47fec0942fa0",
     "active_apps": [
       "Great Calculator",
-      "Project Milepost"
-    ],
-    "reason": "Google AdMob verification reported app-ads.txt details mismatch; repository and deployment package now force an exact root-level seller line and remove placeholder templates."
-  }
+      "Project Milepost",
+      "Project Scribe",
+      "Project Calibrate"
+    ]
+  },
+  "notes": "Generated from app-specific profiles validated against supplied source where stated. Project Game Room source was not supplied and is explicitly marked for binary revalidation."
 }

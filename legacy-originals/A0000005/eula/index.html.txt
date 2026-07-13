@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Countdown License</title>
+  <meta name="description" content="License and terms summary for Project Countdown.">
+  <meta name="theme-color" content="#0ea5e9">
+  <link rel="icon" href="../favicon.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/icons/app-icon-180.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Project Countdown License">
+  <meta property="og:description" content="License and terms summary for Project Countdown.">
+  <meta property="og:image" content="../assets/icons/app-icon-512.png">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="../" aria-label="Project Countdown public information home">
+      <img class="brand__icon" src="../assets/icons/app-icon-192.png" alt="" width="54" height="54">
+      <span class="brand__text">
+        <span class="brand__eyebrow">Project A0000005</span>
+        <span class="brand__title">Project Countdown</span>
+        <span class="brand__subtitle">Countdowns, milestones, and timeline support</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary"><ul><li><a aria-current="page" href="../index.html">Home</a></li><li><a href="../features/">Features</a></li><li><a href="../privacy/">Privacy</a></li><li><a href="../support/">Support</a></li><li><a href="../accessibility/">Accessibility</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero"><div class="container"><div class="hero__panel"><div><p class="breadcrumbs"><a href="../">Home</a> / License</p><span class="hero__eyebrow">License</span><h1>Project Countdown license and terms summary.</h1><p>This public page summarizes the app’s license posture for users and review teams. If Project Countdown is distributed through the App Store, Apple’s standard licensed application terms may also apply unless a separate custom EULA is provided in App Store Connect.</p></div></div></div></section>
+<section class="section"><div class="container"><div class="article-prose section__panel"><h2>Use of the app</h2><p>Project Countdown is provided for personal productivity, countdown tracking, date organization, and milestone viewing. You are responsible for reviewing your event data and maintaining any important backups you need outside the app.</p><h2>Local content</h2><p>You retain responsibility for event titles, notes, and photos you choose to add. Do not add content you do not have the right to use.</p><h2>No warranty</h2><p>The app and public pages are provided as-is to the extent permitted by law. Date calculations, timeline presentation, widgets, and optional history packs should be reviewed by the user before relying on them for critical planning.</p><h2>Support</h2><p>For support or legal questions, email <a href="mailto:trentshurts@gmail.com?subject=Project%20Countdown%20License%20Question">trentshurts@gmail.com</a>.</p></div></div></section>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-panel">
+      <div><strong>Project Countdown</strong><p class="small-note">Public product, privacy, support, accessibility, age-suitability, and legal information for Project Countdown.</p><p class="small-note">Effective date: April 2, 2026</p></div>
+      <nav class="footer-links" aria-label="Footer"><a href="../features/">Features</a><a href="../privacy/">Privacy</a><a href="../privacy-choices/">Privacy Choices</a><a href="../support/">Support</a><a href="../accessibility/">Accessibility</a><a href="../age-suitability/">Age Suitability</a><a href="../eula/">License</a><a href="../content-rights/">Content Rights</a><a href="mailto:trentshurts@gmail.com?subject=Project%20Countdown%20Support">Email Support</a></nav>
+    </div>
+    <p class="legal-credit">Apple, App Store, iPhone, and iPad are trademarks of Apple Inc. Project Countdown is an independent app and this website is not affiliated with Apple.</p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Accessibility information for Great Calculator.">
+  <meta name="theme-color" content="#2563eb">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="Great Calculator Accessibility">
+  <meta property="og:description" content="Accessibility information for Great Calculator.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../assets/img/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Great Calculator Accessibility">
+  <meta name="twitter:description" content="Accessibility information for Great Calculator.">
+  <meta name="twitter:image" content="../assets/img/social-card.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16.png">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <title>Great Calculator Accessibility</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="../">
+      <img class="brand__icon" src="../assets/img/app-icon-192.png" alt="Great Calculator app icon" width="52" height="52">
+      <span class="brand__text">
+        <span class="brand__eyebrow">Public Information</span>
+        <span class="brand__title">Great Calculator</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary"><ul><li><a href="../">Home</a></li><li><a href="../privacy/">Privacy</a></li><li><a href="../support/">Support</a></li><li><a href="../accessibility/" aria-current="page">Accessibility</a></li></ul></nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <div class="hero__panel">
+        <div class="breadcrumbs"><a href="../">Home</a> / Accessibility</div>
+        <div class="hero__grid">
+          <div class="hero__content">
+            <span class="hero__eyebrow">Accessibility</span>
+            <h1>Accessibility information for Great Calculator.</h1>
+            <p>
+              Great Calculator is intended to be usable on iPhone and iPad with clear controls,
+              readable presentation, and a support path for accessibility feedback.
+            </p>
+          </div>
+          <aside class="hero__meta">
+            <div class="stat-card">
+              <h2>Feedback</h2>
+              <p><a href="mailto:trentshurts@gmail.com">trentshurts@gmail.com</a></p>
+            </div>
+            <div class="stat-card">
+              <h3>Important note</h3>
+              <p>Accessibility quality should always be verified on supported devices, text sizes, and OS versions.</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__panel">
+        <h2>Current accessibility posture</h2>
+        <p class="lead">The current release is designed with accessibility-conscious interaction patterns and UI structure.</p>
+        <div class="cards">
+          <article class="card">
+            <h3>Control clarity</h3>
+            <p>Important controls are designed to be clearly labeled and visually distinct across the main calculator flows and menu surfaces.</p>
+          </article>
+          <article class="card">
+            <h3>Appearance support</h3>
+            <p>The app supports light and dark appearances to help preserve contrast across common usage environments.</p>
+          </article>
+          <article class="card">
+            <h3>Readable sizing</h3>
+            <p>The interface is built with scalable typography and adaptive layout behavior for phones and tablets.</p>
+          </article>
+          <article class="card card--full">
+            <h3>Touch-first interaction</h3>
+            <p>Key calculator and menu interactions are designed around generous touch targets and structured visual grouping to reduce ambiguity.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__panel">
+        <h2>Best way to report an accessibility issue</h2>
+        <ol class="list-clean">
+          <li>Describe the device model and iOS/iPadOS version.</li>
+          <li>Identify the calculator type or screen where the issue occurred.</li>
+          <li>List the accessibility feature in use, such as VoiceOver or larger text.</li>
+          <li>Describe the exact problem and the expected behavior.</li>
+        </ol>
+        <div class="callout callout--success">
+          <p><strong>Email accessibility feedback to:</strong> <a href="mailto:trentshurts@gmail.com">trentshurts@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__panel">
+        <h2>Related pages</h2>
+        <ul class="list-clean">
+          <li><a href="../privacy/">Privacy Policy</a></li>
+          <li><a href="../privacy-choices/">Privacy Choices</a></li>
+          <li><a href="../support/">Support</a></li>
+          <li><a href="../">Home</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer>
+  <div class="container">
+    <div class="footer-panel">
+      <div>
+        <strong>Great Calculator</strong><br>
+        Public privacy, support, accessibility, and privacy choices information.<br>
+        Effective date: March 24, 2026
+      </div>
+      <div class="footer-links">
+        <a href="../privacy/">Privacy</a>
+        <a href="../privacy-choices/">Privacy Choices</a>
+        <a href="../support/">Support</a>
+        <a href="../accessibility/">Accessibility</a>
+        <a href="mailto:trentshurts@gmail.com">Email Support</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Page not found.">
+  <meta name="theme-color" content="#2563eb">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="Great Calculator – Page Not Found">
+  <meta property="og:description" content="Page not found.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Great Calculator – Page Not Found">
+  <meta name="twitter:description" content="Page not found.">
+  <meta name="twitter:image" content="assets/img/social-card.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Great Calculator – Page Not Found</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="./">
+      <img class="brand__icon" src="assets/img/app-icon-192.png" alt="Great Calculator app icon" width="52" height="52">
+      <span class="brand__text">
+        <span class="brand__eyebrow">Public Information</span>
+        <span class="brand__title">Great Calculator</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary"><ul><li><a href="./">Home</a></li><li><a href="privacy/">Privacy</a></li><li><a href="support/">Support</a></li><li><a href="accessibility/">Accessibility</a></li></ul></nav>
+  </div>
+</header>
+  
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <div class="hero__panel">
+        <div class="hero__grid">
+          <div class="hero__content">
+            <span class="hero__eyebrow">404</span>
+            <h1>That page could not be found.</h1>
+            <p>The page may have moved, the URL may be incorrect, or the site may still be deploying.</p>
+            <div class="hero__actions">
+              <a class="button-link button-link--primary" href="./">Return home</a>
+              <a class="button-link button-link--secondary" href="privacy/">Privacy Policy</a>
+              <a class="button-link button-link--secondary" href="support/">Support</a>
+            </div>
+          </div>
+          <aside class="hero__meta">
+            <div class="stat-card">
+              <h2>Need help?</h2>
+              <p><a href="mailto:trentshurts@gmail.com">trentshurts@gmail.com</a></p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer>
+  <div class="container">
+    <div class="footer-panel">
+      <div>
+        <strong>Great Calculator</strong><br>
+        Public privacy, support, accessibility, and privacy choices information.<br>
+        Effective date: March 24, 2026
+      </div>
+      <div class="footer-links">
+        <a href="privacy/">Privacy</a>
+        <a href="privacy-choices/">Privacy Choices</a>
+        <a href="support/">Support</a>
+        <a href="accessibility/">Accessibility</a>
+        <a href="mailto:trentshurts@gmail.com">Email Support</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

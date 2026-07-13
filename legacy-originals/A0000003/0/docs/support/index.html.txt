@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support and troubleshooting for Great Calculator.">
+  <meta name="theme-color" content="#2563eb">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="Great Calculator Support">
+  <meta property="og:description" content="Support and troubleshooting for Great Calculator.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../assets/img/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Great Calculator Support">
+  <meta name="twitter:description" content="Support and troubleshooting for Great Calculator.">
+  <meta name="twitter:image" content="../assets/img/social-card.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16.png">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <title>Great Calculator Support</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="../">
+      <img class="brand__icon" src="../assets/img/app-icon-192.png" alt="Great Calculator app icon" width="52" height="52">
+      <span class="brand__text">
+        <span class="brand__eyebrow">Public Information</span>
+        <span class="brand__title">Great Calculator</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary"><ul><li><a href="../">Home</a></li><li><a href="../privacy/">Privacy</a></li><li><a href="../support/" aria-current="page">Support</a></li><li><a href="../accessibility/">Accessibility</a></li></ul></nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <div class="hero__panel">
+        <div class="breadcrumbs"><a href="../">Home</a> / Support</div>
+        <div class="hero__grid">
+          <div class="hero__content">
+            <span class="hero__eyebrow">Support</span>
+            <h1>Need help with Great Calculator?</h1>
+            <p>
+              Use the support address below for bug reports, product questions, privacy questions, or help reproducing a calculation issue.
+            </p>
+            <div class="hero__actions">
+              <a class="button-link button-link--primary" href="mailto:trentshurts@gmail.com?subject=Great+Calculator+Support">Email Support</a>
+              <a class="button-link button-link--secondary" href="../privacy-choices/">Manage Privacy Choices</a>
+            </div>
+          </div>
+          <aside class="hero__meta">
+            <div class="stat-card">
+              <h2>Support email</h2>
+              <p><a href="mailto:trentshurts@gmail.com">trentshurts@gmail.com</a></p>
+            </div>
+            <div class="stat-card">
+              <h3>Best reports include</h3>
+              <p>calculator type, exact input, expected result, actual result, and app version/build</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__panel">
+        <h2>How to contact support</h2>
+        <p class="lead">Email is the primary public support channel for Great Calculator.</p>
+        <dl class="definition-list">
+          <dt>Email</dt>
+          <dd><a href="mailto:trentshurts@gmail.com">trentshurts@gmail.com</a></dd>
+          <dt>Product</dt>
+          <dd>Great Calculator for iPhone and iPad</dd>
+          <dt>Privacy questions</dt>
+          <dd>You can use the same support email for privacy questions or data-related requests.</dd>
+        </dl>
+        <div class="callout callout--accent">
+          <p><strong>Before sending a report:</strong> Please include the calculator type you used, the exact expression or inputs, what you expected to happen, what happened instead, and the app version/build if available.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cards">
+        <article class="card card--half">
+          <h3>Quick troubleshooting</h3>
+          <ul class="list-clean">
+            <li>Tap <strong>=</strong> to commit a result before expecting it to appear in history.</li>
+            <li>If a preference seems stuck, relaunch the app after changing the setting.</li>
+            <li>For Money conversions, confirm that the device has network access if a live rate is required.</li>
+            <li>For equation workflows, include the exact expression you entered in the report.</li>
+          </ul>
+        </article>
+        <article class="card card--half">
+          <h3>Privacy-related requests</h3>
+          <ul class="list-clean">
+            <li>Review the <a href="../privacy/">Privacy Policy</a> for current-release data handling details.</li>
+            <li>Use the <a href="../privacy-choices/">Privacy Choices page</a> for direct local-data management guidance.</li>
+            <li>If you need to ask a privacy question, send it to the support email above.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__panel">
+        <h2>Supported platforms</h2>
+        <ul class="list-clean">
+          <li>iPhone</li>
+          <li>iPad</li>
+        </ul>
+        <p>The app is designed around touch-first calculator workflows and stores settings and committed history locally on the device.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__panel">
+        <h2>Public links</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Privacy Policy</h3>
+            <p><a href="../privacy/">Open privacy policy</a></p>
+          </article>
+          <article class="card">
+            <h3>Privacy Choices</h3>
+            <p><a href="../privacy-choices/">Open privacy choices</a></p>
+          </article>
+          <article class="card">
+            <h3>Accessibility</h3>
+            <p><a href="../accessibility/">Open accessibility page</a></p>
+          </article>
+          <article class="card">
+            <h3>Home</h3>
+            <p><a href="../">Return to landing page</a></p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer>
+  <div class="container">
+    <div class="footer-panel">
+      <div>
+        <strong>Great Calculator</strong><br>
+        Public privacy, support, accessibility, and privacy choices information.<br>
+        Effective date: March 24, 2026
+      </div>
+      <div class="footer-links">
+        <a href="../privacy/">Privacy</a>
+        <a href="../privacy-choices/">Privacy Choices</a>
+        <a href="../support/">Support</a>
+        <a href="../accessibility/">Accessibility</a>
+        <a href="mailto:trentshurts@gmail.com">Email Support</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

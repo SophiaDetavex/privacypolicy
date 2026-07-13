@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy choices and data-management options for Great Calculator.">
+  <meta name="theme-color" content="#2563eb">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="Great Calculator Privacy Choices">
+  <meta property="og:description" content="Privacy choices and data-management options for Great Calculator.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../assets/img/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Great Calculator Privacy Choices">
+  <meta name="twitter:description" content="Privacy choices and data-management options for Great Calculator.">
+  <meta name="twitter:image" content="../assets/img/social-card.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16.png">
+  <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <title>Great Calculator Privacy Choices</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="../">
+      <img class="brand__icon" src="../assets/img/app-icon-192.png" alt="Great Calculator app icon" width="52" height="52">
+      <span class="brand__text">
+        <span class="brand__eyebrow">Public Information</span>
+        <span class="brand__title">Great Calculator</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary"><ul><li><a href="../">Home</a></li><li><a href="../privacy/">Privacy</a></li><li><a href="../support/">Support</a></li><li><a href="../accessibility/">Accessibility</a></li></ul></nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <div class="hero__panel">
+        <div class="breadcrumbs"><a href="../">Home</a> / Privacy Choices</div>
+        <div class="hero__grid">
+          <div class="hero__content">
+            <span class="hero__eyebrow">Privacy Choices</span>
+            <h1>Simple ways to manage privacy in the current Great Calculator release.</h1>
+            <p>
+              Great Calculator is designed so that most privacy controls are direct and local. This page explains the practical choices available in the current release.
+            </p>
+            <div class="hero__actions">
+              <a class="button-link button-link--primary" href="../privacy/">Read the full Privacy Policy</a>
+              <a class="button-link button-link--secondary" href="../support/">Contact Support</a>
+            </div>
+            <div class="chips">
+              <span class="chip chip--success">Clear local history</span>
+              <span class="chip chip--success">No account to delete</span>
+              <span class="chip chip--accent">Email is optional</span>
+              <span class="chip chip--operator">Live rates are optional</span>
+            </div>
+          </div>
+          <aside class="hero__meta">
+            <div class="stat-card">
+              <h2>Current release</h2>
+              <p>Effective date: March 24, 2026</p>
+              <p>Applies to the current iPhone and iPad release of Great Calculator.</p>
+            </div>
+            <div class="stat-card">
+              <h3>Questions?</h3>
+              <p><a href="mailto:trentshurts@gmail.com">trentshurts@gmail.com</a></p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cards">
+        <article class="card card--half">
+          <h3>1. Clear saved history</h3>
+          <p>Use the app’s history controls to remove individual history items or clear all saved history. This removes committed expressions and results stored for recall inside the app.</p>
+        </article>
+        <article class="card card--half">
+          <h3>2. Avoid live currency-rate requests</h3>
+          <p>If you prefer not to send a one-time exchange-rate request, do not use the live currency conversion lookup. Most other calculator features continue to work fully on-device.</p>
+        </article>
+        <article class="card card--half">
+          <h3>3. Choose whether to send support email</h3>
+          <p>The app uses a standard mail link for support. You decide whether to open your mail app and whether to send a message or attachments.</p>
+        </article>
+        <article class="card card--half">
+          <h3>4. Remove local app data</h3>
+          <p>Uninstalling the app removes the app and its sandboxed local storage from your device, including settings, history, and the local rate cache.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__panel">
+        <h2>No account deletion workflow is needed</h2>
+        <p class="lead">The current release does not create or require user accounts.</p>
+        <p>Because the app does not provide account creation or sign-in, there is no in-app account deletion flow for the current release. If that changes in a future release, the app and this site should be updated before release.</p>
+        <div class="callout callout--success">
+          <p><strong>Current release posture:</strong> no account, no cloud profile, and no cross-app tracking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__panel">
+        <h2>What this page does and does not change</h2>
+        <ul class="list-clean">
+          <li><strong>It helps you understand your options:</strong> clear history, avoid live requests, avoid support email, or remove the app.</li>
+          <li><strong>It does not create new data flows:</strong> visiting this page does not change how the app itself processes data.</li>
+          <li><strong>It does not add tracking:</strong> the current app release does not enable Apple Ads attribution and does not include third-party analytics SDKs.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__panel">
+        <h2>Need help with a privacy question?</h2>
+        <p>If you have a privacy question about Great Calculator, contact <a href="mailto:trentshurts@gmail.com">trentshurts@gmail.com</a>.</p>
+        <div class="hero__actions">
+          <a class="button-link button-link--primary" href="mailto:trentshurts@gmail.com?subject=Great+Calculator+Privacy+Question">Email Privacy Support</a>
+          <a class="button-link button-link--secondary" href="../support/">Open Support Page</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer>
+  <div class="container">
+    <div class="footer-panel">
+      <div>
+        <strong>Great Calculator</strong><br>
+        Public privacy, support, accessibility, and privacy choices information.<br>
+        Effective date: March 24, 2026
+      </div>
+      <div class="footer-links">
+        <a href="../privacy/">Privacy</a>
+        <a href="../privacy-choices/">Privacy Choices</a>
+        <a href="../support/">Support</a>
+        <a href="../accessibility/">Accessibility</a>
+        <a href="mailto:trentshurts@gmail.com">Email Support</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
