@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://trustedfriendcorp.org/tools/calculator/A0000011/sitemap.xml

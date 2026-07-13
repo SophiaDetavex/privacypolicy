@@ -1,10 +1,11 @@
 {
   "name": "Project Calibrate",
   "short_name": "Project Calibrate",
-  "start_url": "./",
+  "start_url": "/tools/calculator/A0000010/",
+  "scope": "/tools/calculator/A0000010/",
   "display": "standalone",
-  "background_color": "#faf7f0",
-  "theme_color": "#1f6b51",
+  "background_color": "#f6f8fc",
+  "theme_color": "#174ea6",
   "icons": [
     {
       "src": "assets/img/app-icon-192.png",
