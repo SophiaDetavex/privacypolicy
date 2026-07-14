@@ -1,25 +1,9 @@
-# Project Milepost marketing URL — A0000007
+# Project Milepost public information branch
 
-This directory is the dedicated App Store Marketing URL page for Project Milepost.
+- Project: A0000007
+- Release: 1.9.2 (68)
+- Canonical URL: https://trustedfriendcorp.org/tools/calculator/A0000007/
+- Source status: Source-aligned review completed against Project Milepost 1.9.2 build 68.
+- Generated: 2026-07-14T00:00:00Z
 
-Current App Store Connect paste values:
-
-- Marketing URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000007/`
-- Subtitle: `Date Tracker & Countdown`
-- Support URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/support/`
-- Privacy Policy URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/privacy/`
-- User Privacy Choices URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/privacy-choices/`
-- Age Suitability URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/age-suitability/`
-- End User License Agreement URL: `https://sophiadetavex.github.io/privacypolicy/tools/calculator/A0000006/eula/`
-
-Release alignment:
-
-- App: Project Milepost
-- Marketing project page: A0000007
-- Policy/support/legal project page: A0000006
-- Version: 1.4
-- Build: 40
-- Model: Free download with Google AdMob banner ads and optional one-time Remove Ads purchase
-- Effective date: June 4, 2026
-
-- Copyright field: `2026 Trenten Shurts`
+Public claims must be revalidated whenever the submitted app binary, dependencies, permissions, advertising, purchases, or data handling change.
